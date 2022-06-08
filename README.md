@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" href="Test-2/style.css"/>
+        <link rel="stylesheet" href="https://github.com/baalzamon85/Test-2/blob/main/style.css"/>
     </head>
     <body>
         <header>
