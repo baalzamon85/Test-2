@@ -1,4 +1,16 @@
+html {
+    height:100%;
+}
+
+.wrapper { 
+    position: relative;
+    display: block;
+    min-width: 960px;
+    min-height: 700px;
+}
+
 nav {
+    position:relative;
     margin-left: 166px;
     margin-right: 166px;
 }
@@ -19,14 +31,17 @@ a {
 p {
     padding: 10px;
     font-size: 20px;
+    position:relative;
 }
 
 h1 {
     color: rgb(43, 70, 226);
+    position:relative;
 }
 
 
 .n1 {
+    position:relative;
     border: 3px solid rgb(0, 255, 136);
     color: black;
     font-family: sans-serif;
@@ -37,11 +52,13 @@ h1 {
 }
 
 .icon {
+    position:relative;
     width: 50px;
     height: 50px;
 }
 
 header img {
+    position:relative;
     margin-bottom: 30px;
     margin-left: 166px;
     margin-right: 166px;
