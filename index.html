@@ -4,6 +4,10 @@
         <title>Holiday</title>
     </head>
     <body>
+	<!-- Прелоадер -->
+	<div class="preloader">
+  		<div class="preloader__image"></div>
+	</div>
         <div class="wrapper">
             <header>
                 <h1>Сезонное предложение</h1>
@@ -56,5 +60,14 @@
 <a target="_blank" href="https://www.instagram.com/veronika.dinosaurs/"><img title="Мы в Instagram" alt="Мы в Instagram" src="http://drive.google.com/uc?export=view&id=13kjx75UbL8IrxerUFdPPZOiP2KsVdXZA"></a></p>
             </footer>
         </div>
+        <script>
+            window.onload = function () {
+                document.body.classList.add('loaded_hiding');
+                window.setTimeout(function () {
+                    document.body.classList.add('loaded');
+                    document.body.classList.remove('loaded_hiding');
+                }, 500);
+            }
+        </script   
     </body>
 </html>
