@@ -1,5 +1,27 @@
 <html>
     <head>
+        <script type="text/javascript">
+            window.addEventListener("resize", AutoScale); //Масштабируем страницу при растягивании окна
+            AutoScale(); //Масштабируем страницу после загрузки
+            function AutoScale()
+            {
+	            let width = window.innerWidth; //Ширина окна
+                //Если Вы хотите проверять по размеру экрана, то Вам нужно свойство window.screen.width
+
+	            if(width > 1280)
+	            {
+		            ChangeScale("big");
+	            }
+	            else if(width <= 1280 && width > 720)
+	            {
+		            ChangeScale("normal");
+	            }
+	            else if(width < 720)
+	            {
+		            ChangeScale("small");
+	            }
+            }
+        </script>
         <link rel="stylesheet" href="style.css"/>
         <link rel="stylesheet" type="text/css" href="styles/<?php echo $_SESSION["scale"]; ?>.css" id="scale-link">
         <title>Holiday</title>
