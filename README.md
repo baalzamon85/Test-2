@@ -4,6 +4,10 @@
         <title>Holiday</title>
     </head>
     <body>
+	<!-- Прелоадер -->
+	<div class="preloader">
+  		<div class="preloader__image"></div>
+	</div>
         <div class="wrapper">
             <header>
                 <h1>Сезонное предложение</h1>
