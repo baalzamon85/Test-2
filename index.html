@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/<?php echo $_SESSION["scale"]; ?>.css" id="scale-link">
         <title>Holiday</title>
     </head>
     <body>
