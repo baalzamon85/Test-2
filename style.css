@@ -19,8 +19,6 @@ body {
 nav {
     border-radius: 10px;
     position:relative;
-    margin-left: 166px;
-    margin-right: 166px;
 }
 nav a {
     text-shadow: 2px 2px 2px rgb(2, 2, 2);
