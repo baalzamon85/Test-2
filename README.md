@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=device-width">
     </head>
     <body>
-        <div class="wrapper">
             <header>
                 <h1>Сезонное предложение</h1>
                 <p>С 5 декабря по 5 марта действует предложение: скидка на всю продукцию 40%.</p>
@@ -56,6 +55,5 @@
 <a target="_blank" href="https://www.youtube.com/channel/UCcD6GklUtwkpAa05P0ietPA"><img title="Мы в YouTube" alt="Мы в YouTube" src="http://drive.google.com/uc?export=view&id=1pJ4oN5SB5CEf73YOV8HhNP2JhJStf8Xw"></a>
 <a target="_blank" href="https://www.instagram.com/veronika.dinosaurs/"><img title="Мы в Instagram" alt="Мы в Instagram" src="http://drive.google.com/uc?export=view&id=13kjx75UbL8IrxerUFdPPZOiP2KsVdXZA"></a></p>
             </footer>
-        </div>
     </body>
 </html>
