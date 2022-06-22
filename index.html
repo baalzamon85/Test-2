@@ -2,6 +2,7 @@
     <head>
         <link rel="stylesheet" href="style.css"/>
         <title>Holiday</title>
+	<meta name="viewport" content="width=device-width">
     </head>
     <body>
         <div class="wrapper">
